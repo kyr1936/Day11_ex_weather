@@ -17,11 +17,12 @@ public class MemberInit {
 		sb.append("choa, choa, choa, 30, 2,");
 		sb.append("suji, suji, suji, 23, 2,");
 		sb.append("hani, hani, hani, 15, 0");
-		members = sb.toString();
+		members = sb.toString();  // StringBuffer type의  sb를 String type으로 바꾸어줌
 	}
 	
 	// 메서드명 setMemer return 멤버들 - Member생성 -> Map으로
 	// key = id , value = member객체
+	
 	public HashMap<String, Member> setMember() {
 		
 		HashMap<String, Member> map = new HashMap<String, Member>();
